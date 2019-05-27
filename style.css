@@ -1,0 +1,22 @@
+:root{
+  --main-color: #af54ff;
+  --blur-filter: blur(0px);
+}
+body{
+  text-align: center;
+  padding: 20px;
+  display flex;
+  flex-direction: column;
+}
+.inputs{
+  margin: 20px;
+  font-size: 20px;
+}
+span{
+  color: var(--main-color);
+}
+
+img{
+  border: 25px solid var(--main-color);
+  filter: var(--blur-filter);
+}
